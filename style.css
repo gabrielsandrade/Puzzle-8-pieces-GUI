@@ -6,14 +6,18 @@
 
 #wrapper {
     height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 h2 {
     text-align: center;
+    padding-top: 40px;
 }
 .game {
     width: 450px;
     height: 450px;
-    background-color: darkgrey;
+    background-color: beige;
     margin: 0 auto;
 }
 .line1, .line2 {
@@ -27,6 +31,8 @@ h2 {
     width: 150px;
     height: 150px;
     border: 1px solid beige;
+    box-shadow: 0 0 1px black;
+    border-radius: 3px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -36,7 +42,10 @@ h2 {
 button {
     width: 40px;
     height: 40px;
-    mar
+}
+
+#buttons{
+    margin-bottom: 15px;
 }
 
 .block0{
